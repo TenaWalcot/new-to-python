@@ -1,0 +1,11 @@
+x,y,z=1.6,2.3,3.4546
+x=int(x)
+y=round(y,0)
+z=round(z,2)
+print("x:",x,type(x))
+print("y:",y,type(y))
+print("z:",z,type(z))
+x,y,z=1.6,2.3,3.4546
+print("x:%d"%x,type(int(x)))
+print("y:",float(int(y)),type(y))
+print("z:%.2f"%z,type(z))
